@@ -13,16 +13,16 @@ public class Main
         char reponse=' ';
         char mode = ' ';
 
-        System.out.println("CONVERTISSEUR DEGRES CELSIUS ET DEGRES FAHRENHEIT BY AUBIN");
-        System.out.println("----------------------------------------------------------");
+        System.out.println("CONVERTISSEUR DEGRES CELSIUS ET DEGRES FAHRENHEIT BY FLOWARG");
+        System.out.println("------------------------------------------------------------");
 
-        do{//tant que reponse = O //boucle principale
+        do{
 
             do{//tant que reponse n'est pas O ou N
                 mode = ' ';
                 System.out.println("Choisissez le mode de conversion : ");
-                System.out.println("1 - Convertisseur Celsius - Fahrenheit");
-                System.out.println("2 - Convertisseur Fahrenheit - Celsius ");
+                System.out.println("1 --> Convertisseur Celsius > Fahrenheit");
+                System.out.println("2 --> Convertisseur Fahrenheit > Celsius ");
                 mode = sc.nextLine().charAt(0);
 
                 if(mode != '1' && mode != '2')
@@ -62,6 +62,7 @@ public class Main
         }while(reponse == 'O');
 
         System.out.println("A bientot !");
+        System.out.println("Pour aider le projet : https://github.com/FlowArg/ThermoConvertisseur  !");
 
     }
 
