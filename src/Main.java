@@ -16,8 +16,10 @@ public class Main
         //zeparti
         utils.title();
         do{
-            utils.nom();
+            
             do{
+                utils.nom();
+                
                 System.out.println("\nChoisissez le mode de conversion : ");
                 System.out.println("1 - Convertisseur Celsius - Fahrenheit");
                 System.out.println("2 - Convertisseur Fahrenheit - Celsius ");
