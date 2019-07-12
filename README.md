@@ -3,5 +3,5 @@ Convertisseur Celsius vers Fahrenheit by FlowArg
 
 README !!
 You can use this tool, it's safe and simple !
-Just, open directory program and download the Main.class en start.bat and place the Main.class and the start.bat in the same directory and launch start.bat !
-For check the project, just go to the src directory !
+Just, open directory program and download all files, put in the same directory all files and launch start.bat !
+For see sources, just go to the src directory !
