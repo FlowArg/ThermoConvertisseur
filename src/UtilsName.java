@@ -17,6 +17,14 @@ class UtilsName
         System.out.println("Quel est votre nom ?");
         nom = sc.nextLine();
         System.out.println("Bienvenue " + nom + ".");
+        if(nom == Milan.)
+        {
+            System.out.printLn ("Car tu es un mec bien, cool, sympa et compréhensif, respecteux des autres !")
+                return;
+        }
+        else
+            return;
+        
     }
 
     void goodbye()
