@@ -6,3 +6,4 @@ javac UtilsName.java
 echo Launching program
 java Main
 pause
+exit
