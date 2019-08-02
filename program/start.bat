@@ -3,3 +3,4 @@ echo Launching Program...
 java Main
 echo GoodBye
 pause
+exit
